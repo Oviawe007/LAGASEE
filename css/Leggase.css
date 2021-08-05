@@ -1,0 +1,150 @@
+
+
+p,a,h1,h3,h4,ul,li,span{
+	font-family: 'Open Sans', sans-serif;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: red;
+	font-size: 14px;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+}
+/** left box **/
+.container .left-box{
+	background-color: #1D089D;
+	grid-column: 1/2;
+	padding: 0;
+	margin-right: 0;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+}
+.container .left-box .images{
+	margin-top: 200px;
+	background-color: #1D089D;
+	float: right;
+}
+.container .left-box .img{
+	justify-content: center;
+}
+/** end left-box **/
+
+/*** right box **/
+.container .right-box{
+	background-color: #fff;
+	grid-column: 2/-1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .right-box .card{
+	min-width: 300px;
+	padding: 0 60px;
+}
+.container .right-box .card .head{
+	display: flex;
+	justify-content: space-between;
+	float: inline-start;
+}
+.container .right-box .head .image-icon{
+	font-size: 3em;
+}
+
+.container .right-box .card .h1{
+	font-size: 27px;
+	line-height: 32px;
+	color: #14117a;
+}
+.container .right-box .card .p{
+	font-size: 16px;
+	font-weight: bold;
+	color: #14117a;
+}
+/*** end right box **/
+
+/*** Buttons ***/
+.container .right-box .card .btn{
+	display: block;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	line-height: 40px;
+	padding: 6px 16px;
+	border-radius: 100px;
+	font-weight: bold;
+	background-color: #14117a;
+	margin-top: 10px;
+}
+
+input[type=submit]{
+	background-color: #1D089D;
+	color: #fff;
+	outline: none;
+	border: none;
+	border-radius: 30%;
+	padding: 10px;
+}
+
+button.block{
+	width: 100%;
+	margin-bottom: .8rem;
+}
+
+button.primary{
+	background-color: #14117a;
+	color: #fff;
+}
+button.outline{
+	background-color: #14117a;
+	color: #1da1f2;
+	border: 1px solid #1da1f2;
+}
+.form{
+    padding: 0 0;
+   
+}
+.form-control{
+    padding-bottom: 0;
+    position: relative;
+    margin-bottom: 10px;
+    
+}
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 2px;
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+}
+.form-control label{
+    display: inline-block;
+    margin-bottom: 5px;
+	text-size-adjust: 20px;
+	font-weight: bold;
+}
+.form button{
+    background-color: #1da1f2;
+    border: 2px solid #1da1f2;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    border-radius: 100px;
+    padding: 15px;
+    font-weight: bold;
+    width: 100%;
+}
+.container .right-box .card .forms{
+	justify-content: right;
+	display: flex;
+	justify-content: space-between;
+}
+
